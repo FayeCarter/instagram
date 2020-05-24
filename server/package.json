@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"./**/*.js\" --quiet",
-    "test": "nyc --reporter=html --reporter=text mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
-
+    "test": "nyc --reporter=html --reporter=text mocha"
   },
   "repository": {
     "type": "git",
