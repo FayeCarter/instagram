@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/FayeCarter/instagramsvg?branch=master)](https://travis-ci.org/FayeCarter/instagram)
+[![Build Status](https://travis-ci.org/FayeCarter/instagram.svg?branch=master)](https://travis-ci.org/FayeCarter/instagram)
 [![Coverage Status](https://coveralls.io/repos/github/FayeCarter/instagram/badge.svg?branch=master)](https://coveralls.io/github/FayeCarter/instagram?branch=master)
 
 # Instagram
