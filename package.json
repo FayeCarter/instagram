@@ -1,0 +1,25 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "This project is a clone of instagram following on from a weekend challenge set by Makers Academy. The [original project](https://github.com/FayeCarter/instagram-challenge) was created in Rails. The aim of this project is to learn Postgres, Node, Express and React.  I have also built this project to learn  testing frameworkd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FayeCarter/instagram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FayeCarter/instagram/issues"
+  },
+  "homepage": "https://github.com/FayeCarter/instagram#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  }
+}
