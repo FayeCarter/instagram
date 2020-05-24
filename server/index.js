@@ -1,10 +1,11 @@
-const express = require("express");
+const express = require('express');
+
 const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json({ status: "success", message: "It's working" });
+app.get('/', (req, res) => {
+  res.json({ status: 'success', message: 'It is working' });
 });
 
 
