@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "stable"
 before_install:
-  - cd server
+  - cd packages/server
   - npm install -g npm@latest
 install:
   - npm install
