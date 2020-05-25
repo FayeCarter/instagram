@@ -15,4 +15,3 @@ deploy:
   app: gram-gram-gram
   on:
     repo: FayeCarter/instagram
-  skip_cleanup: 'true'
