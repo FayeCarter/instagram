@@ -7,7 +7,8 @@
     "lint": "eslint \"./**/*.js\" --quiet",
     "test": "nyc --reporter=html --reporter=text mocha --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
