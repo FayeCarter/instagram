@@ -10,7 +10,7 @@ describe('Test Server', () => {
   it('server is working correctly', (done) => {
     chai
       .request(index)
-      .get('/')
+      .get('/api/status')
       .end((err, res) => {
         expect(res).to.have.status(200);
         expect(res.body.status).to.equals('success');
