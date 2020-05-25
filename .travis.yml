@@ -1,11 +1,14 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 before_install:
-  - cd packages/server
-  - npm install -g npm@latest
+- cd packages/server
+- npm install -g npm@latest
 install:
-  - npm install
+- npm install
 script:
-  - npm run test
+- npm run test
 after_success: npm run coverage
+deploy:
+  api_key:
+    secure: JnuOgzxASZsysMpy4cti3tq//ENIKYn6GyHYGVIgC9ynG3o9iYz8Ims6eZFZLLAkSzO0LUzcIjCucevDNCkrdA1RqU5gPeHrPVZ0t1wdbd9e6KHEkZi16LN9ogR2P3qqoqQOOJQZqXbHughjz4G27kVDxwfRRL11oH3Or2qcXbS7hhVruXAtD5WYRxT5mt23Qgt7xe6Hjq+ZRLjDPleTi1snElaYBoJm9ONv1CFZMuq0SU/Kx13Lv5PvZk2l/shj3aFl/llgbP9AchL6srBJAGIJeBGdh2/P8pEgliCUgbn3SyxZ8TE+WBB3Zj+y27FtcVj3QgQhuEJ4j/VtVQEgCbeJy9broNGr2/XF7HTtp7F5gwpuwU6WiPZLzo4Zi25ziCn+5dHs9mIbUPhsNpNaKOoEnWnfpaQMs9ayKq0YYSHr9C67w1MV17i7goskLFS4kNq6b56VQLD/MXZVnVjGhdCl0ja74tZRiTT+Fh7ns5qVnMH/Mi/Pdf8m4xn+GizqW7Ek0Nst00H0joJvcET3bv7AKyKNi3RFtAjrWATWDlnHfdjL0CGi+zq++PloqfDhu+QEPWDjt1T8kvCy8pfhTVsjJ7qCZCszYOtZPq74nlIk5UvrYq3+kBW1Qadzb78eW475Tji1kplu32pMziBJwa9KPJMPPc8cK9fAaqGZoO8=
