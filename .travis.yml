@@ -12,3 +12,7 @@ deploy:
   provider: heroku
   api_key:
     secure: kHSMFObtIPLZIxSN8wo7opSTtuZzYZqRypksJTUxaTrNXlgO9pDOSuFT+sQXstGCKi5BNuaT/C9ugc6dvKBOSBwbF7e1BsjPkEY1NlrOq6zqeJuulgIrB1vA/T3z3avP2oIqv5z+TkCKSDBNFuuxPx7/5M/TsoLn8qwty1uS98ofZzohetgayJ8hxbyTwOr9U3D76iu6SzWqEPu6cooMjCHqlmsKHfbGLLWBjgmqRFQ1THbbNdf5Lmis7aEP3B8t1bbTk7Hp8Ot4aEboqcTSmg39NEw8kSut2n4qiORTjKF/003qImDQUpnlXSmHYqLsMgGiVqyX5I0//xQSE81vgQIrFEesfYmUJGWmg0bVwXXQ+NI4A0QMnaJe08aCB4RehtD8vkyea/vwojVR3PlF9REedzHBpdDEh/0cNuZGiRL9yYYdxvPztAzVFxY9NRJ7Un3jEM0duVErt6VXyPwMTs5CXn0v3P+Fvqgk0PlWY3/kWnKxA8BAV7rXNrKkQmt9zLSmzvBWtiWOO1TvZ7TWytmXbbsuHm+g4HFK5/qafVRz7UhTv9blPD8ptS48aabjajU1UPBaC8HJjmamYbr3owDe+JfzXSKtsCHdjJ7B/f/R5LAY1oNnn26Q3ypFuq94+W9ZgWJc1BFTJ74fxgUAL5XaBBv9ZX/245QGZyZtAD8=
+  app: gram-gram-gram
+  on:
+    repo: FayeCarter/instagram
+  skip_cleanup: 'true'
