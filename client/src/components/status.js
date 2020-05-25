@@ -7,7 +7,7 @@ const ShowStatus = () => {
 
   const getStatus = async () => {
     try {
-      const response = await fetch("/api/")
+      const response = await fetch("/api/status")
       const jsonData = await response.json()
 
       setStatus(jsonData)
